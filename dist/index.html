@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<script type="text/javascript" src="js/script.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/app.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/material-icons.css">
+		<link rel="stylesheet" type="text/css" href="css/animate.css">
+		<link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+		<!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/chartist/0.10.1/chartist.min.css" rel="stylesheet"> -->
+		<link href="https://fonts.googleapis.com/css?family=Raleway|Roboto+Mono|Source+Code+Pro" rel="stylesheet">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/chartist/0.10.1/chartist.js"></script> -->
+		<!-- <script src="js/pies.js"></script> -->
+		<title>Martin Steen Nielsen</title>
+	</head>
+	<body>
+
+		<div ng-app="APP" ng-controller="MainControl">
+
+			<div id="fullpage">
+
+
+<!-- SECTION 1 -->
+
+
+				<div class="col-lg-12 section">
+					<div class="parallax">
+						<br><br><br>
+						<div class="full_stacked" style="padding-top:1%">
+						<div class="col-lg-3"></div>
+						<div id="jumboThingy" class="jumbotron col-lg-6" style="background-color:rgba(61, 65, 58, 0.9);">
+							<h3 id="my_name" style="text-align: center; font-family: 'Source Code Pro', monospace;">
+								Martin Steen Nielsen
+							</h3>
+						  <h1 id="jumbo_title" style="text-align: center; font-family: 'Questrial', sans-serif;">Full Stack Developer</h1>
+							<br>
+								<div id="stack_img" style="display: block; margin: auto;" class="circular"></div>
+								<!-- <br><br> -->
+								<div class="and_then">
+									<img src="./img/extra_white_smaller.png" alt=""  style="display: block; margin: auto;" />
+								</div>
+								<br><br>
+						</div>
+					</div>
+					</div>
+				</div>
+
+
+
+
+<!-- SECTION 2 -->
+
+
+							<div class="col-lg-12 section ">
+								<div class="parallaxDeux">
+									<br><br><br><br>
+									<div class="col-lg-4"></div>
+									<div id="infobox" class=" col-lg-4">
+										<div class="jumbotron shadow" style="height:250px">
+										<div class="cogs_wrapper">
+											<div id="cogs" style="display: block; margin: auto;" class="icon cogs"></div>
+										</div>
+										<h2 id="deux_title" style="text-align: center; font-family: 'Questrial', sans-serif;" class="">Technical Details</h2>
+									</div>
+									<div id="achievements">
+											<div style="padding-top: 5%; padding-left: 20%; font-family: 'Questrial', sans-serif; font-size: 22px; color: #ebebeb" ng-repeat="item in credentials_list track by $index" class="achievement well shadow">
+												<div  style="font-family: 'Questrial', sans-serif; font-size: 16px" ng-animate-children="true">
+													<p style="font-size: 16px">
+														<b style="padding-right: 15px;"> » </b> {{item}}
+													</p>
+												</div>
+											</div>
+									</div>
+											<br><br>
+									</div>
+								</div>
+						</div>
+
+
+<!-- SECTION 3 -->
+
+
+							<div class="col-lg-12 section ">
+								<div class="parallaxTrois">
+									<br><br>
+									<div class="row">
+											<div class="col-lg-8">
+												<div class="well shadow" style="border: solid black 1px; border-radius: 5px" id="project1_desc">
+													<h3 style="font-family: Monospace; font-size: 16px"><b>ISAKSEN DESIGN</b></h3>
+													<hr>
+														<p class="" id="description" style="font-family: Monospace; font-size: 13px">
+															The business model of the movers and shakers of the fashion industry is structured in a way that many companies in the industry feel that many of the available tools for product handling and management simply does not work for them. What i could offer was a unique and specially tailored web application that handled full product management, orders and economics and inventory control.
+															<br><br>
+															The system would become the very core of the company and phase out the fragmented and outdated tools like Excel and manual inventory, offering workflow automation in every area possible and tying everything from retail orders, industry convention sales and their economics system together. The project scope and size was fairly large, considering i took on the project as the only developer, but in just under 7 months i was able to hand over a VPS instance containing a core system with three different access portals divided into access points for employees, agents and retailers.
+															<br><br>
+															The system contained everything from system wide SMTP mail server, on-boot automation, internal communications system across offices, stores, remote agents, warehouses and workshop, notification, logging and analysis of agent and retailer activity, prototype and production management with full front to back data structure, live dynamic PDF creation, real time dynamic stock inventory management, and all accounting data synced with third party eConomics system.
+															<br><br>
+															For legal reasons i am unable to share the sourcecode for this project, the project structure and codebase is however identical to my other projects on Github like <a href="https://github.com/null4bl3/Gaffl.es">this one.</a>
+														</p>
+											</div>
+											</div>
+											<div class="col-lg-4">
+												<div style="display:table-cell; vertical-align:middle; text-align:center" id="imgs1">
+													<div class="col-lg-4">
+														<a href="./img/project1/1.png" target="_blank">
+															<img id="img_click" ng-model="image"  src="./img/project1/1.png" style="max-height: 90%; max-width: 90%; object-fit: contain" alt="" />
+														</a>
+													</div>
+													<div class="col-lg-4">
+														<a href="./img/project1/1.png" target="_blank">
+															<img id="img_click" ng-model="image"  src="./img/project1/1.png" style="max-height: 90%; max-width: 90%; object-fit: contain" alt="" />
+														</a>
+													</div>
+													<div class="col-lg-4">
+														<a href="./img/project1/1.png" target="_blank">
+															<img id="img_click" ng-model="image"  src="./img/project1/1.png" style="max-height: 90%; max-width: 90%; object-fit: contain" alt="" />
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+											<br>
+											<div class="row">
+												<div class="col-lg-3">
+													<div class=" well shadow" id="pie1" style="width: 600px; height: 400px; margin: 0 auto; border: solid black 1px; border-radius: 5px"></div>
+												</div>
+												<div class="col-lg-1"></div>
+												<div class="col-lg-3">
+													<div class=" well shadow" id="pie2" style="width: 600px; height: 400px; margin: 0 auto; border: solid black 1px; border-radius: 5px"></div>
+												</div>
+												<div class="col-lg-1"></div>
+												<div class="col-lg-3">
+													<div class=" well shadow" id="pie3" style="width: 600px; height: 400px; margin: 0 auto; border: solid black 1px; border-radius: 5px"></div>
+												</div>
+												<div class="col-lg-1"></div>
+											</div>
+											<br>
+								</div>
+						</div>
+
+
+						<div class="modal-lg fade" id="img_details" role="dialog" aria-hidden="true">
+							<div class="modal-dialog">
+								<div class="modal-dialog" >
+									<div class="modal-content">
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+										</div>
+										<div class="modal-body" id="over">
+											<img style="max-width: 900px;" src="./img/project1/1.png" alt="" />
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+		</div>
+	</body>
+</html>
