@@ -92,11 +92,7 @@ module.exports = function(grunt) {
                             "node_modules/material-icons/css/material-icons.css",
                             "app/styles/animate.css",
                             "app/styles/hover.css",
-                            "app/styles/fullcalendar.css",
-                            // "node_modules/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css",
-                            // "node_modules/bootstrap-switch/dist/css/bootstrap3/bootstrap-switch.css",
-                            // "node_modules/toastr/build/toastr.css"
-                            // "node_modules/perfect-scrollbar/dist/css/perfect-scrollbar.css"
+                            "node_modules/semantic-ui-css/semantic.css",
                         ],
                         dest: "dist/css/main.min.css"
                     },

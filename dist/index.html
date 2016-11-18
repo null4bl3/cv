@@ -8,25 +8,39 @@
 		<link rel="stylesheet" type="text/css" href="css/material-icons.css">
 		<link rel="stylesheet" type="text/css" href="css/animate.css">
 		<link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
-		<!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/chartist/0.10.1/chartist.min.css" rel="stylesheet"> -->
 		<link href="https://fonts.googleapis.com/css?family=Raleway|Roboto+Mono|Source+Code+Pro" rel="stylesheet">
-		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-		<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/chartist/0.10.1/chartist.js"></script> -->
-		<!-- <script src="js/pies.js"></script> -->
-		<title>Martin Steen Nielsen</title>
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+		<title>Martin Nielsen</title>
 	</head>
-	<body>
-
+	<bodystyle="width: 100%">
 		<div ng-app="APP" ng-controller="MainControl">
-
 			<div id="fullpage">
-
 
 <!-- SECTION 1 -->
 
-
-				<div class="col-lg-12 section">
+				<div class="section">
 					<div class="parallax">
+						<div id="menu">
+						<ul>
+							<li>
+								<div id="github_link" style="cursor:pointer; padding: 10px">
+									Github
+								</div>
+							</li>
+							<li class="dropdown">
+								<div id="github_link" style="cursor:pointer; padding: 10px" data-toggle="dropdown" class="dropdown-toggle">
+									Email<span class="caret"></span>
+								</div>
+								<ul class="dropdown-menu" style="width:100%">
+									<li style="width:100%"><a href="#">mailto:</a></li>
+									<li style="width:100%"><a href="#" data-toggle="modal" data-target="#contact" >Contact Form</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+
+
 						<br><br><br>
 						<div class="full_stacked" style="padding-top:1%">
 						<div class="col-lg-3"></div>
@@ -37,11 +51,17 @@
 						  <h1 id="jumbo_title" style="text-align: center; font-family: 'Questrial', sans-serif;">Full Stack Developer</h1>
 							<br>
 								<div id="stack_img" style="display: block; margin: auto;" class="circular"></div>
-								<!-- <br><br> -->
 								<div class="and_then">
 									<img src="./img/extra_white_smaller.png" alt=""  style="display: block; margin: auto;" />
 								</div>
-								<br><br>
+								<br><br><br>
+								<br><br><br>
+								<div class="row">
+									<br><br>
+									<p style="text-align: center">
+										<i id="arrow_down" style="font-size:80px" class="material-icons">keyboard_arrow_down</i>
+									</p>
+								</div>
 						</div>
 					</div>
 					</div>
@@ -53,7 +73,7 @@
 <!-- SECTION 2 -->
 
 
-							<div class="col-lg-12 section ">
+							<div class="section ">
 								<div class="parallaxDeux">
 									<br><br><br><br>
 									<div class="col-lg-4"></div>
@@ -82,82 +102,345 @@
 <!-- SECTION 3 -->
 
 
-							<div class="col-lg-12 section ">
+							<div class="section">
 								<div class="parallaxTrois">
-									<br><br>
-									<div class="row">
-											<div class="col-lg-8">
+									<br><br><br>
+											<div class="col-lg-6">
 												<div class="well shadow" style="border: solid black 1px; border-radius: 5px" id="project1_desc">
 													<h3 style="font-family: Monospace; font-size: 16px"><b>ISAKSEN DESIGN</b></h3>
 													<hr>
 														<p class="" id="description" style="font-family: Monospace; font-size: 13px">
-															The business model of the movers and shakers of the fashion industry is structured in a way that many companies in the industry feel that many of the available tools for product handling and management simply does not work for them. What i could offer was a unique and specially tailored web application that handled full product management, orders and economics and inventory control.
+															The business model of the movers and shakers in the Scandinavian fashion industry is structured in such a way that many companies feel many of the available tools for product management and order handling simply does not work for them. What i could offer was a unique and specially tailored web application that handled full product management, orders and economics and inventory control.
 															<br><br>
-															The system would become the very core of the company and phase out the fragmented and outdated tools like Excel and manual inventory, offering workflow automation in every area possible and tying everything from retail orders, industry convention sales and their economics system together. The project scope and size was fairly large, considering i took on the project as the only developer, but in just under 7 months i was able to hand over a VPS instance containing a core system with three different access portals divided into access points for employees, agents and retailers.
+															The system would become the very core of the company and phase out the fragmented and outdated tools like Excel sheets and manual inventory, offering workflow automation in every area possible and tying everything from retail orders, sales agent utilities, industry convention sales and their economics system together. The project scope and size was fairly large, considering i took on the project as the only developer, but in just under 5 months i was able to hand over a high-end VPS instance containing a core system with three different entry portals divided into access points for employees, agents and retailers.
 															<br><br>
-															The system contained everything from system wide SMTP mail server, on-boot automation, internal communications system across offices, stores, remote agents, warehouses and workshop, notification, logging and analysis of agent and retailer activity, prototype and production management with full front to back data structure, live dynamic PDF creation, real time dynamic stock inventory management, and all accounting data synced with third party eConomics system.
+															The system contained everything from system wide SMTP mail server, on-boot automation, internal communications system across offices, stores, remote agents, warehouses and creative workshop, notifications system, logging and analysis of agent and retailer activity, prototype and production management with full front to back data structure, live dynamic PDF creation, real time dynamic stock inventory management, and all accounting data synced with third party eConomics system.
 															<br><br>
-															For legal reasons i am unable to share the sourcecode for this project, the project structure and codebase is however identical to my other projects on Github like <a href="https://github.com/null4bl3/Gaffl.es">this one.</a>
+															For legal reasons i am unable to share the source code for this project, but the project structure, codebase and standards of the project, is however identical to my other projects on Github like <a href="https://github.com/null4bl3/Gaffl.es">this one.</a>
 														</p>
 											</div>
-											</div>
-											<div class="col-lg-4">
-												<div style="display:table-cell; vertical-align:middle; text-align:center" id="imgs1">
-													<div class="col-lg-4">
-														<a href="./img/project1/1.png" target="_blank">
-															<img id="img_click" ng-model="image"  src="./img/project1/1.png" style="max-height: 90%; max-width: 90%; object-fit: contain" alt="" />
-														</a>
-													</div>
-													<div class="col-lg-4">
-														<a href="./img/project1/1.png" target="_blank">
-															<img id="img_click" ng-model="image"  src="./img/project1/1.png" style="max-height: 90%; max-width: 90%; object-fit: contain" alt="" />
-														</a>
-													</div>
-													<div class="col-lg-4">
-														<a href="./img/project1/1.png" target="_blank">
-															<img id="img_click" ng-model="image"  src="./img/project1/1.png" style="max-height: 90%; max-width: 90%; object-fit: contain" alt="" />
-														</a>
+											<div>
+
+												<div>
+													<div style="display:table-cell; vertical-align:middle; text-align:center" id="imgs1" class="well shadow">
+														<div class="col-lg-4">
+															<a href="./img/project1/1.png" target="_blank">
+																<img id="img_click" ng-model="image"  src="./img/project1/1.png" style="max-height: 90%; max-width: 90%; object-fit: contain" alt="" />
+															</a>
+														</div>
+														<div class="col-lg-4">
+															<a href="./img/project1/2.png" target="_blank">
+																<img id="img_click" ng-model="image"  src="./img/project1/2.png" style="max-height: 90%; max-width: 90%; object-fit: contain" alt="" />
+															</a>
+														</div>
+														<div class="col-lg-4">
+															<a href="./img/project1/3.png" target="_blank">
+																<img id="img_click" ng-model="image"  src="./img/project1/3.png" style="max-height: 90%; max-width: 90%; object-fit: contain" alt="" />
+															</a>
+														</div>
 													</div>
 												</div>
 											</div>
-										</div>
+											</div>
+											<div >
+												<div class="col-lg-6">
+													<div class=" well shadow" id="pie1" style="height: 400px; margin: 0 auto; border: solid black 1px; border-radius: 5px"></div>
+													<br><br>
+												</div>
+												<div class="col-lg-6">
+													<div class=" well shadow" id="pie2" style="height: 400px; margin: 0 auto; border: solid black 1px; border-radius: 5px"></div>
+												</div>
+												<div class="col-lg-1"></div>
+											</div>
 											<br>
-											<div class="row">
-												<div class="col-lg-3">
-													<div class=" well shadow" id="pie1" style="width: 600px; height: 400px; margin: 0 auto; border: solid black 1px; border-radius: 5px"></div>
-												</div>
-												<div class="col-lg-1"></div>
-												<div class="col-lg-3">
-													<div class=" well shadow" id="pie2" style="width: 600px; height: 400px; margin: 0 auto; border: solid black 1px; border-radius: 5px"></div>
-												</div>
-												<div class="col-lg-1"></div>
-												<div class="col-lg-3">
-													<div class=" well shadow" id="pie3" style="width: 600px; height: 400px; margin: 0 auto; border: solid black 1px; border-radius: 5px"></div>
-												</div>
-												<div class="col-lg-1"></div>
-											</div>
 											<br>
 								</div>
 						</div>
 
 
-						<div class="modal-lg fade" id="img_details" role="dialog" aria-hidden="true">
-							<div class="modal-dialog">
-								<div class="modal-dialog" >
-									<div class="modal-content">
-										<div class="modal-header">
-											<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-										</div>
-										<div class="modal-body" id="over">
-											<img style="max-width: 900px;" src="./img/project1/1.png" alt="" />
-										</div>
-										<div class="modal-footer">
-											<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-										</div>
-									</div>
-								</div>
+<!-- SECTION 4 -->
+
+
+<div class="section">
+	<div class="parallaxTrois">
+		<br><br><br>
+				<div class="col-lg-6">
+					<div class="well shadow" style="border: solid black 1px; border-radius: 5px" id="project2_desc">
+						<h3 style="font-family: Monospace; font-size: 16px"><b>Gaffl.es</b></h3>
+						<hr>
+							<p class="" id="description" style="font-family: Monospace; font-size: 13px">
+								Diving into the deep end of advanced data analysis based on user interaction, <a href="http://gaffl.es">Gaffl.es</a> was a major project based on the concept of weekly meal planning as a tool to advance responsible environmental sustainability by minimizing needless over-consumption and spendings.
+								<br><br>
+								After being granted access to the official nutritional data on available food items from the <a href="http://mfvm.dk/">Danish government</a>, i was able to construct a score system based on the results of the data analysis i ran on the data, using a few test cases of average household recipes. This score system was to be further advanced through the usage of the meal planning service, by analyzing numerous parameters from frequency of usage, price range to item size and weight.
+								<br><br>
+								The service provided two aspects of usability. One was the aim of the service to let users plan their weekly meals in order to save money and reduce waste, and end up with a smart shopping list accounting for type and category, and useful suggestions based on their previous choices. The other part was the insight into user habits and choices that opened up for a all kinds of possibilities from targeted advertisements to a greater insight into the nutritional habits of average people providing data for campaigns on public health.
+								<br><br>
+								The codebase repository is available at my <a href="https://github.com/null4bl3/Gaffl.es">Github</a> page, with only the data analysis itself removed to protect the service from user manipulation. The  <a href="https://github.com/null4bl3/Gaffl.es/raw/master/COMPUTATION_V_4.png">documentation</a> of the basic algorithm is however present in the <a href="https://github.com/null4bl3/Gaffl.es">repository </a> to give an idea of what is going on.
+								<br><br>
+								website: <a target="_blank" href="http://gaffl.es">http://gaffl.es</a>
+								<br>
+								Github Repository: <a target="_blank" href="https://github.com/null4bl3/Gaffl.es">https://github.com/null4bl3/Gaffl.es</a>
+							</p>
+				</div>
+				<div>
+
+					<div>
+						<div style="display:table-cell; vertical-align:middle; text-align:center" id="imgs2" class="well shadow">
+							<div class="col-lg-4">
+								<a href="./img/project1/1.png" target="_blank">
+									<img id="img_click" ng-model="image"  src="./img/project1/1.png" style="max-height: 90%; max-width: 90%; object-fit: contain" alt="" />
+								</a>
+							</div>
+							<div class="col-lg-4">
+								<a href="./img/project1/2.png" target="_blank">
+									<img id="img_click" ng-model="image"  src="./img/project1/2.png" style="max-height: 90%; max-width: 90%; object-fit: contain" alt="" />
+								</a>
+							</div>
+							<div class="col-lg-4">
+								<a href="./img/project1/3.png" target="_blank">
+									<img id="img_click" ng-model="image"  src="./img/project1/3.png" style="max-height: 90%; max-width: 90%; object-fit: contain" alt="" />
+								</a>
 							</div>
 						</div>
+					</div>
+				</div>
+				</div>
+				<div >
+					<div class="col-lg-6">
+						<div class=" well shadow" id="pie1_1" style="height: 400px; margin: 0 auto; border: solid black 1px; border-radius: 5px"></div>
+						<br><br>
+					</div>
+					<div class="col-lg-6">
+						<div class=" well shadow" id="pie2_2" style="height: 400px; margin: 0 auto; border: solid black 1px; border-radius: 5px"></div>
+					</div>
+					<div class="col-lg-1"></div>
+				</div>
+				<br>
+				<br>
+	</div>
+</div>
+
+
+<!-- SECTION 5 -->
+
+
+<div class="section">
+	<div class="parallaxTrois">
+		<br><br><br>
+				<div class="col-lg-6">
+					<div class="well shadow" style="border: solid black 1px; border-radius: 5px" id="project3_desc">
+						<h3 style="font-family: Monospace; font-size: 16px"><b>Global Comments</b></h3>
+						<hr>
+							<p class="" id="description" style="font-family: Monospace; font-size: 13px">
+								Global Comments is a cross site communications npm module, intended to offer web developers a out-of-the-box communications module handling comments, chat and social networking, without doing anything else than to include the module in their project and apply for a API key from the service.
+								<br><br>
+								The service setup was based on <a href="http://socket.io/">Socket io</a> for chat and notifications functionality, as well as Nodejs and and MongoDB for comments. The system architecture ensured strict content relations and user connectivity through API calls and session authentication.
+								<br><br>
+								Originally an exam project with a A++ grade, the project scope quickly grew beyond its original purpose in both form and complexity.
+								<br><br>
+
+								Source code can be found through my <a href="https://github.com/null4bl3">Github</a> page, or by following this <a href="https://github.com/Chillybyte/GlobalComments">direct link to the repository.</a>
+							</p>
+				</div>
+				<div>
+
+					<div>
+						<div style="display:table-cell; vertical-align:middle; text-align:center" id="imgs3" class="well shadow">
+							<div class="col-lg-4">
+								<a href="./img/project1/1.png" target="_blank">
+									<img id="img_click" ng-model="image"  src="./img/project1/1.png" style="max-height: 90%; max-width: 90%; object-fit: contain" alt="" />
+								</a>
+							</div>
+							<div class="col-lg-4">
+								<a href="./img/project1/2.png" target="_blank">
+									<img id="img_click" ng-model="image"  src="./img/project1/2.png" style="max-height: 90%; max-width: 90%; object-fit: contain" alt="" />
+								</a>
+							</div>
+							<div class="col-lg-4">
+								<a href="./img/project1/3.png" target="_blank">
+									<img id="img_click" ng-model="image"  src="./img/project1/3.png" style="max-height: 90%; max-width: 90%; object-fit: contain" alt="" />
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				</div>
+				<div >
+					<div class="col-lg-6">
+						<div class=" well shadow" id="pie1_1_1" style="height: 400px; margin: 0 auto; border: solid black 1px; border-radius: 5px"></div>
+						<br><br>
+					</div>
+					<div class="col-lg-6">
+						<div class=" well shadow" id="pie2_2_2" style="height: 400px; margin: 0 auto; border: solid black 1px; border-radius: 5px"></div>
+					</div>
+					<div class="col-lg-1"></div>
+				</div>
+				<br>
+				<br>
+	</div>
+</div>
+
+
+<!-- SECTION 6 -->
+
+
+<div class="section">
+	<div class="parallaxTrois">
+		<br><br><br>
+				<div class="col-lg-6">
+					<div class="well shadow" style="border: solid black 1px; border-radius: 5px" id="project4_desc">
+						<h3 style="font-family: Monospace; font-size: 16px"><b>Iterator</b></h3>
+						<hr>
+							<p class="" id="description" style="font-family: Monospace; font-size: 13px">
+								While working on projects, i have often found myself needing to iterate through either text files or large data sets and update or edit items. Now there are numerous tools and utilities that are able to do so, but i have not found one with a main focus on the task, and have therefore been writing small Java/JavaFX programs to solve my iteration needs in the past, but decided to write a more dynamic and useful tool, instead of writing project specific programs each time.
+								<br><br>
+								I decided to write my tool as an Electron.js application, as i have been looking to get to know the Electron environment better, since i first heard about. The released version lets a user iterate through a table in a MySQL database, or iterate through a textfile line by line and manipulate the database before being written to a column of choice.
+								<br><br>
+								I hope to expand the application to included NoSQL databases as well as more advanced functionalities and better implement the cross platform functionality that the Electron environment offers.
+								<br><br>
+								<a target="_blank" href="https://github.com/null4bl3/iterator">Github Repository</a>
+							</p>
+				</div>
+				<div>
+
+					<div>
+						<div style="display:table-cell; vertical-align:middle; text-align:center" id="imgs4" class="well shadow">
+							<div class="col-lg-4">
+								<a href="./img/project1/1.png" target="_blank">
+									<img id="img_click" ng-model="image"  src="./img/project1/1.png" style="max-height: 90%; max-width: 90%; object-fit: contain" alt="" />
+								</a>
+							</div>
+							<div class="col-lg-4">
+								<a href="./img/project1/2.png" target="_blank">
+									<img id="img_click" ng-model="image"  src="./img/project1/2.png" style="max-height: 90%; max-width: 90%; object-fit: contain" alt="" />
+								</a>
+							</div>
+							<div class="col-lg-4">
+								<a href="./img/project1/3.png" target="_blank">
+									<img id="img_click" ng-model="image"  src="./img/project1/3.png" style="max-height: 90%; max-width: 90%; object-fit: contain" alt="" />
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				</div>
+				<div >
+					<div class="col-lg-6">
+						<div class=" well shadow" id="pie1_1_1_1" style="height: 400px; margin: 0 auto; border: solid black 1px; border-radius: 5px"></div>
+						<br><br>
+					</div>
+					<div class="col-lg-6">
+						<div class=" well shadow" id="pie2_2_2_2" style="height: 400px; margin: 0 auto; border: solid black 1px; border-radius: 5px"></div>
+					</div>
+					<div class="col-lg-1"></div>
+				</div>
+				<br>
+				<br>
+	</div>
+</div>
+
+
+
+<!-- SECTION 7 -->
+
+
+<div class="section">
+	<div class="parallaxTrois">
+		<br><br><br>
+				<div class="col-lg-6">
+
+					<div class="well shadow" style="border: solid black 1px; border-radius: 5px" id="project5_desc">
+						<h3 style="font-family: Monospace; font-size: 16px"><b>Bitbot</b></h3>
+						<hr>
+							<p class="" id="description" style="font-family: Monospace; font-size: 13px">
+								A long time go-to project that have seen C++/QT and Java/JavaFx clients, a Android application and is now on its third version of a Web Application.
+								<br><br>
+								The concept is a Random Instance Generator (RIG), that combines a randomly selected comment with a randomly selected image, often resulting in strange and hilarious outcome. The core of the project is a Linux system running controlled bursts of tasks, crawling and scraping public available online content.
+								<br><br>
+								One aspect is scraping comment sections of several major platform and retrieving content fitting a list of parameters. Another is crawling the web for available files with image extensions, saving the file link for further analysis. The system then iterates through the images found, using facial recognition algorithms attempting to locate files useful in the context.
+								<br><br>
+								<a target="_blank" href="http://bitbot.cc">bitbot.cc</a>
+								<br><br>
+								<a href="https://play.google.com/store/apps/details?id=org.unlimited.vessel.butter.bitbot_beta">Android Application in Play Store</a>
+							</p>
+				</div>
+				<div>
+
+					<div>
+						<div style="display:table-cell; vertical-align:middle; text-align:center" id="imgs5" class="well shadow">
+							<div class="col-lg-4">
+								<a href="./img/project1/1.png" target="_blank">
+									<img id="img_click" ng-model="image"  src="./img/project1/1.png" style="max-height: 90%; max-width: 90%; object-fit: contain" alt="" />
+								</a>
+							</div>
+							<div class="col-lg-4">
+								<a href="./img/project1/2.png" target="_blank">
+									<img id="img_click" ng-model="image"  src="./img/project1/2.png" style="max-height: 90%; max-width: 90%; object-fit: contain" alt="" />
+								</a>
+							</div>
+							<div class="col-lg-4">
+								<a href="./img/project1/3.png" target="_blank">
+									<img id="img_click" ng-model="image"  src="./img/project1/3.png" style="max-height: 90%; max-width: 90%; object-fit: contain" alt="" />
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				</div>
+				<div >
+					<div class="col-lg-6">
+						<div class=" well shadow" id="pie1_1_1_1_1" style="height: 400px; margin: 0 auto; border: solid black 1px; border-radius: 5px"></div>
+						<br><br>
+					</div>
+					<div class="col-lg-6">
+						<div class=" well shadow" id="pie2_2_2_2_2" style="height: 400px; margin: 0 auto; border: solid black 1px; border-radius: 5px"></div>
+					</div>
+					<div class="col-lg-1"></div>
+				</div>
+				<br>
+				<br>
+	</div>
+</div>
+
+
+
+
+
 		</div>
+
+<div class="modal fade" id="contact" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="">Contact Form</h4>
+      </div>
+      <div class="modal-body">
+				<div class="col-lg-12">
+					<br><br>
+					<label class="label label-default"><b>FROM</b></label>
+					<input type="email" class="form-control" name="name" value="">
+					<br>
+				</div>
+				<div class="col-lg-12">
+				<label class="label label-default"><b>SUBJECT</b></label>
+				<input type="text" class="form-control" name="name" value="">
+				<br>
+			</div>
+			<div class="col-lg-12">
+				<label class="label label-default"><b>MESSAGE</b></label>
+				<textarea name="name" rows="5" cols="40" style="overflow:auto;resize:none; width: 100%"></textarea>
+				<br><br>
+      </div>
+      </div>
+      <div class="modal-footer">
+				<br><br>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Send</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 	</body>
 </html>
